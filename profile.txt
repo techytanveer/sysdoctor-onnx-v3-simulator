@@ -1,0 +1,17 @@
+
+"enabled": true → runs simulation
+
+"enabled": false → runs normal metrics collection
+
+"profile" → which unhealthy pattern to simulate:
+
+| Profile       | Meaning                  |
+| ------------- | ------------------------ |
+| HEALTHY       | Normal system            |
+| HIGH_LOAD     | CPU overload / high load |
+| OVERHEAT      | High CPU temperature     |
+| DISK_PRESSURE | Disk usage critical      |
+| UNHEALTHY     | All metrics stressed     |
+
+
+
